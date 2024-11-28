@@ -18,6 +18,6 @@ class Sol(Scene):
 			Tex(r"$d$", color = BLACK).move_to([(x2 + x3) / 2, y3 - eps1, 0]).scale(0.8),
 			Tex(r"$A$", color = BLACK).move_to([x1 - eps2, y1, 0]).scale(0.8),
 			Tex(r"$B$", color = BLACK).move_to([x2, y2 - eps2, 0]).scale(0.8),
-			Tex(r"$A$", color = BLACK).move_to([x3 + eps2, y3, 0]).scale(0.8),
+			Tex(r"$C$", color = BLACK).move_to([x3 + eps2, y3, 0]).scale(0.8),
 		]
 		add(self, list)
