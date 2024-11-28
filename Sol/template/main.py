@@ -1,3 +1,6 @@
 from manim import *
-def add(self, list): 
-	for element in list: self.add(element)
+def add(self, elements): 
+	for element in elements: 
+		# print(element)
+		if(type(element) == list): add(self, element)
+		else: self.add(element)
